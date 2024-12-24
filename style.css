@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: lightgray;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block {
+    margin-bottom: 20px;
+  }
+  .block__news {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+    /* border: solid 1px black; */
+  }
+  .article-item {
+    width: 300px;
+    margin: 20px;
+    background-color: rgb(219, 219, 219);
+    
+   
+  }
+  .link {
+     margin: 15px;
+     color: grey;
+  }
+  .article-item img {
+    width: 100%;
+    height: auto;
+  }
+  .countainer__pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .countainer__pagination button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .block__input {
+    border: solid 2px gray;
+    height: 30px;
+    width: 400px;
+  }
+
+  .button__block{
+    border: solid 2px gray;
+    height: 35px;
+    width: 60px;
+    color: gray;
+  }
+
+.btn_1 {
+    border: solid 2px gray;
+    height: 35px;
+    width: 70px;
+    color: gray;
+}
+
+.btn_2 {
+    border: solid 2px gray;
+    height: 35px;
+    width: 70px;
+    color: gray;
+}
+.span {
+    margin: 10px;
+    color: gray;
+}
+
+.h1 {
+    color: gray
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #666;
+    color: white;
+    padding: 20px;
+    /* text-align: center; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+
+    background-color: #666;
+    position: fixed;
+    /* display: flex; */
+    justify-content: space-between;
+    /* align-items: center;
+    padding: 20px; */
+    color: white;
+    padding: 10px;
+    
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
